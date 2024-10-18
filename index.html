@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous"> 
+  <link rel="stylesheet" href="./style.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
+    <title>My Portfolio</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="px-3 py-2 text-bg-dark border-bottom">
+          <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+                    </a>
+    
+                    <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                        <li>
+                            <a href="#home" class="nav-link text-secondary">
+                            <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"></use></svg>
+                            Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#about-me" class="nav-link active text-white">
+                            <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="about-me"></use></svg>
+                            About Me
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#skills" class="nav-link text-white">
+                            <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#skills"></use></svg>
+                            Skills
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="nav-link text-white">
+                            <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#portfolio"></use></svg>
+                            Portfolio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="nav-link text-white">
+                            <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#contact"></use></svg>
+                            Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+          </div>
+        </div>
+    </header>
+      
+    <!-- Heroe Presentation Introduction -->
+    <div class="hero-section">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="./images/my picture.png" class="d-block-me mx-lg-auto img-fluid" alt="picture of me" width="900" height="700" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hi, I´m Camila</h1>
+                    <p class="lead">Graduated doctor currently venturing into the world of digital development</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn btn-dark btn-lg px-4 me-md-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-suit-heart" viewBox="0 0 16 16">
+                            <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.6 7.6 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                        </svg> Contact Me <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-suit-heart" viewBox="0 0 16 16">
+                            <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.6 7.6 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                        </svg></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <!-- About Me -->
+    <div class="about-me" id="about-me"> 
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div>
+                    <h1 class="fw-bold text-body-emphasis lh-1 mb-3 text-center pb-3">About Me</h1>
+                    <p class="lead">My experience in the healthcare field has taught me the importance of precision and attention to detail, skills I now apply in creating digital solutions. I'm excited to combine my passion for technology with my desire to positively impact people's lives through the web.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--skills-->
+    <div class="skills" id="skills">
+    <div class="container px-4 py-5">
+        <h1 class="fw-bold text-body-emphasis lh-1 mb-3 text-center pb-4">Skills</h1>
+          <div class="col">
+            <div class="row row-cols-1 row-cols-sm-2 g-4">
+              <div class="col d-flex flex-column gap-2">
+                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-dark bg-gradient fs-4 rounded-3">
+                  <svg class="bi" width="1em" height="1em">
+                    <use xlink:href="#collection"></use>
+                  </svg>
+                </div>
+                <h4 class="fw-semibold mb-0 text-body-emphasis">Languages for Web Development</h4>
+                <p class="text-body-secondary">HTML, CSS, JavaScript and frameworks as React and Angular</p>
+              </div>
+    
+              <div class="col d-flex flex-column gap-2">
+                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-dark bg-gradient fs-4 rounded-3">
+                  <svg class="bi" width="1em" height="1em">
+                    <use xlink:href="#gear-fill"></use>
+                  </svg>
+                </div>
+                <h4 class="fw-semibold mb-0 text-body-emphasis">Responsivness</h4>
+                <p class="text-body-secondary">It reflects my commitment to high-quality, user-centered web solutions.</p>
+              </div>
+    
+              <div class="col d-flex flex-column gap-2">
+                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-dark bg-gradient fs-4 rounded-3">
+                  <svg class="bi" width="1em" height="1em">
+                    <use xlink:href="#speedometer"></use>
+                  </svg>
+                </div>
+                <h4 class="fw-semibold mb-0 text-body-emphasis">Version Control Proficiency</h4>
+                <p class="text-body-secondary">Familiarity with tools like Git for managing code changes and collaboration.</p>
+              </div>
+    
+              <div class="col d-flex flex-column gap-2">
+                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-dark bg-gradient fs-4 rounded-3">
+                  <svg class="bi" width="1em" height="1em">
+                    <use xlink:href="#table"></use>
+                  </svg>
+                </div>
+                <h4 class="fw-semibold mb-0 text-body-emphasis">Personal Characteristics</h4>
+                <p class="text-body-secondary">Problem solving, critical thinking, communication, colaboration and adaptability.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--portfolio-->
+
+    <div class="portfolio" id="portfolio">
+    <h1 class="display-5 fw-bold text-center pt-5">My Projects <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-emoji-kiss" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M12.493 13.368a7 7 0 1 1 2.489-4.858c.344.033.68.147.975.328a8 8 0 1 0-2.654 5.152 9 9 0 0 1-.81-.622m-3.731-3.22a13 13 0 0 0-1.107.318.5.5 0 1 1-.31-.95c.38-.125.802-.254 1.192-.343.37-.086.78-.153 1.103-.108.16.022.394.085.561.286.188.226.187.497.131.705a1.9 1.9 0 0 1-.31.593q-.115.16-.275.343.16.186.276.347c.142.197.256.397.31.595.055.208.056.479-.132.706-.168.2-.404.262-.563.284-.323.043-.733-.027-1.102-.113a15 15 0 0 1-1.191-.345.5.5 0 1 1 .31-.95c.371.12.761.24 1.109.321q.264.062.446.084a6 6 0 0 0-.502-.584.5.5 0 0 1 .002-.695 5.5 5.5 0 0 0 .5-.577 5 5 0 0 0-.448.082Zm.766-.087-.003-.001-.003-.001zm.002 1.867-.006.001zM6 8c.552 0 1-.672 1-1.5S6.552 5 6 5s-1 .672-1 1.5S5.448 8 6 8m2.757-.563a.5.5 0 0 0 .68-.194.93.93 0 0 1 .813-.493c.339 0 .645.19.813.493a.5.5 0 0 0 .874-.486A1.93 1.93 0 0 0 10.25 5.75c-.73 0-1.356.412-1.687 1.007a.5.5 0 0 0 .194.68M14 9.828c1.11-1.14 3.884.856 0 3.422-3.884-2.566-1.11-4.562 0-3.421Z"/>
+      </svg></h1>
+<div id="carouselExample" class="carousel slide mx-auto" style="max-width: 80%;">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/tin dog2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/moving.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/tin dog1.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  
+  <!--contact-->
+
+  <div class="container" id="contact">
+    <main>
+      <div class="col-md-7 col-lg-8">
+          <h4 class="mb-3">Personal Info</h4>
+          <form class="needs-validation" novalidate="">
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <label for="firstName" class="form-label">First name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                <div class="invalid-feedback">
+                  Valid first name is required.
+                </div>
+              </div>
+  
+              <div class="col-sm-6">
+                <label for="lastName" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                <div class="invalid-feedback">
+                  Valid last name is required.
+                </div>
+              </div>
+
+              <div class="col-12">
+                <label for="email" class="form-label">Email <span class="text-body-secondary">(Optional)</span></label>
+                <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                <div class="invalid-feedback">
+                  Please enter a valid email address for shipping updates.
+                </div>
+              </div>
+  
+              <div class="col-md-12">
+                <label for="zip" class="form-label">Phone number</label>
+                <input type="text" class="form-control" id="phone" placeholder="" required="">
+                <div class="invalid-feedback">
+                  Valid phone number.
+                </div>
+              </div>
+              <div class="requirement">
+              <div class="col-md-12">
+                <label for="zip" class="form-label">Requirement</label>
+                <input type="text" class="form-control" id="zip" placeholder="" required="">
+                <div class="invalid-feedback">
+                  Short explanation of what you require.
+                </div>
+            </div>
+              </div>
+
+            </div>
+  
+        </br>
+              </div>
+            </div>
+            <div class="send">
+            <button class="w-50 btn btn-dark btn-lg" type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  
+  </div>
+  <hr class="my-4">
+  <!--footer-->
+  
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+    </footer>
+  </div>
+
+    </body>
+</html>
